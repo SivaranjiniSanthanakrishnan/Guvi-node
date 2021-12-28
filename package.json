@@ -5,16 +5,18 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server",
-    "build": "npm build"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "YOUR NAME",
   "license": "ISC",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "bson": "^4.6.0",
     "dotenv": "^10.0.0",
     "express": "^4.17.2",
+    "joi": "^17.5.0",
+    "jsonwebtoken": "^8.5.1",
     "mongodb": "^4.2.2",
     "webpack": "^5.65.0",
     "webpack-dev-server": "^4.7.1"
